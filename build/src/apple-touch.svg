@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Full-bleed variant for apple-touch-icon (no transparency, iOS rounds corners itself) -->
+  <defs>
+    <linearGradient id="fsbgA" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" fill="url(#fsbgA)"/>
+
+  <!-- Rising trend arrow -->
+  <polyline points="15,45 26,33 34,39 48,21" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 21 L45.99 33.37 L36.51 26.01 Z" fill="#FFFFFF"/>
+
+  <!-- Circuit node (AI) -->
+  <circle cx="26" cy="33" r="5.5" fill="url(#fsbgA)" stroke="#FFFFFF" stroke-width="3"/>
+</svg>

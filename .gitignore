@@ -1,0 +1,11 @@
+# Dependencies
+build/node_modules/
+
+# Local environment / editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

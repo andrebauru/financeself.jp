@@ -1,0 +1,15 @@
+{
+  "name": "FinanceSelf.jp",
+  "short_name": "FinanceSelf",
+  "description": "Custom apps, landing pages, CRM systems, Arduino & ESP32 automation and AI integration — from code to hardware.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b1120",
+  "theme_color": "#0b1120",
+  "lang": "en",
+  "icons": [
+    { "src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

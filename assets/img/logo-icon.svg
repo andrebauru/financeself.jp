@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="FinanceSelf.jp icon">
+  <defs>
+    <linearGradient id="fsbg" x1="2" y1="2" x2="62" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Chip body -->
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#fsbg)"/>
+  <rect x="4.75" y="4.75" width="54.5" height="54.5" rx="12.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1.5"/>
+
+  <!-- Rising trend arrow -->
+  <polyline points="15,45 26,33 34,39 48,21" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 21 L45.99 33.37 L36.51 26.01 Z" fill="#FFFFFF"/>
+
+  <!-- Circuit node (AI) -->
+  <circle cx="26" cy="33" r="5.5" fill="url(#fsbg)" stroke="#FFFFFF" stroke-width="3"/>
+</svg>
